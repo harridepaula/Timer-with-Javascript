@@ -40,12 +40,10 @@ function stopWatch() {
     leadingZeroMinutes = minutes < 10 ? '0' + minutes : minutes;
     leadingZeroHours = hours < 10 ? '0' + hours : hours;
 
+    //display time
+
     let displayTimer = document.querySelector('#timer');
     displayTimer.innerHTML = `${leadingZeroHours}:${leadingZeroMinutes}:${leadingZeroSeconds}`;
-
-    // display time
-
-    document.querySelector('#timer').innerHTML = `${hours}:${minutes}:${seconds}`;
 }
 
 

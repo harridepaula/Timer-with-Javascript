@@ -3,8 +3,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/bg.jpg) no-repeat center center/ cover;
+    background: url(../img/background.jpeg) no-repeat center center/ cover;
+    backdrop-filter: blur(5px);
     font-family: 'Work Sans', sans-serif;
+    filter: brightness(0.8);
 }
 
 .container {
@@ -13,7 +15,7 @@ body {
     background: #fff;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
 #timer {
